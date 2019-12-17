@@ -1,0 +1,1 @@
+print('Bonjour, voici une calculatrice')
