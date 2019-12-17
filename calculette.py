@@ -6,3 +6,10 @@ select = input("Sélectionner le type d'opération 1,2,3,4:")
 
 Donnée_1 = int(input("Entrez premier chiffre"))
 Donnée_2 = int(input("Entrez second chiffre"))
+
+# On annonce les différents types d'opération
+
+# Addition
+
+if select == 1:
+    print(Donnée_1+Donnée_2)
