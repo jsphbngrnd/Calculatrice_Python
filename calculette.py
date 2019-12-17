@@ -2,10 +2,10 @@ print('Début travail calculette')
 
 # On déclare les différentes variables
 
-select = input("Sélectionner le type d'opération 1,2,3,4:")
+select = input("Sélectionner le type d'opération 1,2,3,4 : ")
 
-Donnée_1 = int(input("Entrez premier chiffre"))
-Donnée_2 = int(input("Entrez second chiffre"))
+Donnée_1 = int(input("Entrez premier chiffre : "))
+Donnée_2 = int(input("Entrez second chiffre : "))
 
 # On annonce les différents types d'opération
 
@@ -28,6 +28,8 @@ elif select == 3:
 
 elif select == 4:
     print(Donnée_1/Donnée_2)
+
+# Autre entrée
 
 else:
     print("Invalide")
