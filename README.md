@@ -1,4 +1,4 @@
-# Calculatrice_Python
+# Calculatrice Python
 
 Une calculatrice en python
 
