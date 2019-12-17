@@ -23,3 +23,11 @@ elif select == 2:
 
 elif select == 3:
     print(Donnée_1*Donnée_2)
+
+# Division
+
+elif select == 4:
+    print(Donnée_1/Donnée_2)
+
+else:
+    print("Invalide")
