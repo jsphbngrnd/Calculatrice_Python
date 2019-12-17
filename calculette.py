@@ -18,3 +18,8 @@ if select == 1:
 
 elif select == 2:
     print(Donnée_1-Donnée_2)
+
+# Multiplication
+
+elif select == 3:
+    print(Donnée_1*Donnée_2)
