@@ -4,30 +4,34 @@ print('Début travail calculette')
 
 select = input("Sélectionner le type d'opération 1,2,3,4 : ")
 
-Donnée_1 = int(input("Entrez premier chiffre : "))
-Donnée_2 = int(input("Entrez second chiffre : "))
+A = int(input("Entrez premier chiffre : "))
+B = int(input("Entrez second chiffre : "))
 
 # On annonce les différents types d'opération
 
 # Addition
 
-if select == 1:
-    print(Donnée_1+Donnée_2)
+if select == "1":
+    resultadd = A + B
+    print(resultadd)
 
 # Soustraction
 
-elif select == 2:
-    print(Donnée_1-Donnée_2)
+elif select == "2":
+    resultsub = A - B
+    print(resultsub)
 
 # Multiplication
 
-elif select == 3:
-    print(Donnée_1*Donnée_2)
+elif select == "3":
+    resultmult = A * B
+    print(resultmult)
 
 # Division
 
-elif select == 4:
-    print(Donnée_1/Donnée_2)
+elif select == "4":
+    resultdiv = A / B
+    print(resultdiv)
 
 # Autre entrée
 
