@@ -13,3 +13,8 @@ Donnée_2 = int(input("Entrez second chiffre"))
 
 if select == 1:
     print(Donnée_1+Donnée_2)
+
+# Soustraction
+
+elif select == 2:
+    print(Donnée_1-Donnée_2)
